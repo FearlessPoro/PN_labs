@@ -1,0 +1,5 @@
+Przykładowa odpowiedź:
+	double x = 1.;
+	double y = -1.;
+	double z = 1e-20;
+	double w = 1.;

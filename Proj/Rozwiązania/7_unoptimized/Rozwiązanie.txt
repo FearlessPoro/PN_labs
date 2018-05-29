@@ -1,0 +1,1 @@
+2) Kompilator nie stosuje zmian typów przy optymalizacji, mimo iż jak wynika z testu są one opłacalne

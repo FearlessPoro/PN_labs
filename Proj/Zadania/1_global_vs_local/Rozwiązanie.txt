@@ -1,0 +1,3 @@
+2) zmienne globalne są zawsze trzymane osobno w sekcji .data, lokalne wrzucane są na stos
+3) w przypadku optymalizacji lokalne zmienne mogą być ładowane od razu do rejestrów, jako stałe, brak użycia stosu do ich przechowywania
+4) O3:  wszystkie poza printf, kompilator może korzystać z takich Copy propagation CSE i constant folding

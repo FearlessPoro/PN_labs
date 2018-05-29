@@ -1,0 +1,1 @@
+Skompiluj podane pliki (przy użyciu O2 lub O3), dokonaj linkowania i sprawdź czas wykonania przy pomocy polecenia time. Następnie użyj opcji flto. Jak zmienił się czas wykonania i jak rozmiar pliku?
