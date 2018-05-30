@@ -24,9 +24,8 @@ int main()
 
 /*
 1) Sprawdź kod maszynowy powstały z kompilacji programu za pomocą clang oraz gcc bez flag kompilacji, 
-przeanalizuj ilość instrukcji warunkowych oraz częstotliwość ich wywołania, jakie wady widać? (odpowiedź: każde wywołanie pętli powoduje sprawdzenie warunku) 
+przeanalizuj ilość instrukcji warunkowych oraz częstotliwość ich wywołania, jakie wady widać?
 2) Wykonaj optymalizacje -O1 w compilatorze clang, co stało się z pętlą? Porównaj kod zoptymalizowany za pomocą gcc z flagą -O3 
-(odpowiedź: program zamienił sumowanie w pętli na mniej skomplikowany wzór, zmniejszajac ilość operacji oraz porównań (do 1). 
 gcc aktualnie jest w stanie doprowadzić tylko do sytuacji w której próbuje przewidzieć wynik i obliczyć jego wstępną wartość, 
 mimo wszystko potrzebuje dużo więcej kodu oraz występuje możliwość wystąpienia wielu porównań. Clang w przeciwnienstwie do gcc wykorzystuje 
 rozwijanie petli
