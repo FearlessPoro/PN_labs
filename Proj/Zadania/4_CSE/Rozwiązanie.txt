@@ -1,1 +1,0 @@
-Widoczne przy optymalizacji użycie CSE (wartość a*b jest obliczona raz oraz przechowywana w rejestrze do późniejszych obliczeń)
